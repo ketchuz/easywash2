@@ -1,0 +1,132 @@
+{
+	"directives.language-select.Language" : "LENGUAJE",
+	"views": {
+		"main": {
+			"Splendid!": "Esplendido!!",
+			"title": "Mi Computadora",
+			"couch" : "Un sofa!"
+		},
+		"home": {
+			"menu": {
+				"company": "EMPRESA",
+				"philosophy": "FILOSOFIA",
+				"services": "SERVICIOS",
+				"service-points": "PUNTOS DE SERVICIO",
+				"contact": "CONTACTO",
+				"franchise": "FRANQUICIAS"
+			},
+			"home-invest": {
+				"title" : "¿No sabes donde invertir tu dinero?",
+				"text" : "Sé parte de la red franquicias.",
+				"enter" : "ENTRAR",
+				"quote" : "COTIZAR"
+			},
+			"home-services" : {
+				"easy-fast" : "Lavado de carrocería,\nAbrillantador y\nProtector de Plásticos",
+				"easy-cool" : "Lavado de carrocería,\nAbrillantador, Protector de Plásticos\ny Aspirado",
+				"easy-full" : "Lavado de carrocería, Abrillantador,\nProtector de Plásticos, Aspirado\nmás Lavado de motor y vestiduras"
+			},
+			"home-time" : {
+				"text" : "El tiempo no se puede parar solo se puede aprovechar."
+			}
+		},
+		"company": {
+			"company-banner": {
+				"choose": "Escoje a quien dedicas el tiempo porque nunca lo ",
+				"recover": "recuperarás"
+			},
+			"company-us": {
+				"who": "¿Quíenes Somos?",
+				"description" : "es una empresa líder socialmente responsable dedicada al eco-lavado automotríz a domicilio"
+			}, 
+			"company" : {
+				"company": "Empresa",
+				"p1" : "Easy Wash es una empresa líder socialmente responsable dedicada al eco-lavado automotriz a domicilio",
+				"p2" : "Nuestra marca está registrada ante el IMPI y en trámite de afiliación a la Asociación Mexicana de Franquicias",
+				"p3" : "Es un concepto innovador y rentable que ofrece el servicio de auto-lavado en el sitio que te localices de manera profesional con productos que cuidan el medio ambiente",
+				"p4" : "En Easy Wash te brindamos un servicio de calidad creando una experiencia única en la optimización de tu tiempo"
+			},
+			"company-vmv" : {
+				"mission" : {
+					"title" : "Misión",
+					"text" : "Transformamos el servicio de lavado de autos a domicilio, brindando un trato dinámico único, \n capaz de cambiar la forma de pensar del cliente y creando un impacto social y ecológico."
+				},
+				"vision" : {
+					"title" : "Visión",
+					"text" : "Somos una empresa de servicios de lavado de autos a domicilio brindando un trato único y creando un impacto social ecológico"
+				},
+				"values" : {
+					"title" : "Valores",
+					"honesty": "HONESTIDAD",
+					"punctuality": "PUNTUALIDAD",
+					"kindness": "AMABILIDAD",
+					"availability": "DISPONIBILIDAD",
+					"team-work": "TRABAJO EN EQUIPO"
+				}
+
+			}
+		},
+		"philosophy" : {
+			"title" : "Somos una empresa dedicada a agregar valor a su tiempo.",
+			"p1" : "Nos especializamos en el servicio de lavado de coches casa\ncreando un servicio único en su tipo.\n\nCon nuestra filosofía de trabajo de cuidar y asistir a los más mínimos detalles, hemos conseguido ser diferente como una empresa profesional \n",
+			"important": "comprometida con la sociedad y el medio ambiente.",
+			"p2" : "\n\nCreamos una relación de amistad con nuestros socios de negocios y clientes, ya que todos ellos son pilares importantes del crecimiento de Easy Wash.",
+			"img-title": "Nuestro mejor negocio \nes su completa satisfacción"
+		},
+		"service-points" : {
+			"point-map" : {
+				"title" : "Puntos de servicio",
+				"p1" : "Desde la fundación de Easy Wash en el año 2014 hemos tenido un crecimiento exponencial; gracias al modelo de negocio exitoso con el que contamos.",
+				"important" : "\n\nEn México tenemos ya franquicias en operación y próximas \naperturas en los Estados Unidos de América.\n\n",
+				"p2" : "Estas son las ciudades donde se encuentra la franquicia.\n\n"
+			},
+			"banner": {
+				"title" : "Tómate tu tiempo",
+				"text" : "Para soñar, descubrir, disfrutar,\ninvitar, reír saborear, imaginar \nsentir, vivir . . . \n"
+			}
+		},
+		"franchise" : {
+			"franchise-banner" : {
+				"title" : "¿Porqué invertir en una franquicia?",
+				"text" : "La industria de las franquicias ha crecido cuatro veces más que la economía nacional, de acuerdo a datos de la Asociación Mexicana de Franquicias (AMF)."
+			},
+			"franchise" : {
+				"p1" : "Las posibilidades de éxito la ubican en un 95 %, en comparación al 83 % de las incubadoras guiadas y el 23% de una empresa que arranca de forma independiente, de acuerdo con la Secretaría de Economía (SE).",
+				"p3" : "El 90% de las franquicias sobrevive después de cinco años de operación, mientras que el 60% de los negocios tradicionales fracasan a los dos años de haber abierto sus puertas al público.",
+				"p2" : "El 90% de las franquicias sobrevive después de cinco años de operación, mientras que el 60% de los negocios tradicionales fracasan a los dos años de haber abierto sus puertas al público."
+			}
+		},
+		"services" : {
+			"sizes" : "chico/mediano/grande",
+			"washing" : "lavadas",
+			"easy-fast": {
+				"parts" : "EXTERIOR",
+				"text": "Lavado de carrocería, Abrillantador y\nProtector de Plásticos"
+			},
+			"easy-cool" : {
+				"parts" : "INTERIOR",
+				"text": "Lavado de carrocería, Abrillantador,\nProtector de Plásticos y Aspirado"
+				},
+			"easy-full" : {
+				"parts" : "Motor",
+				"text" : "Lavado de carrocería, Abrillantador,\nProtector de Plásticos, Aspirado\nmás Lavado de motor y vestiduras"
+			}
+		}, 
+		"contact" : {
+			"title" : "Contacto",
+			"important" : "PARA CONTRATAR CUALQUIER PAQUETE DE LAVADO",
+			"text" : "\nESPECIFICAR DEJANDO SUS DATOS PARA QUE NUESTRO SERVICIO MÁS CERCANO SE\nPONGA EN CONTACTO CON USTED.\n",
+			"name" : "Nombre",
+			"last-name" : "Apellido",
+			"phone" : "Teléfono",
+			"mobile" : "Celular",
+			"street" : "Calle",
+			"suburb" : "Colonia",
+			"state" : "Estado",
+			"country" : "País",
+			"message" : "Mensaje",
+			"send" : "Enviar"
+		}
+
+	}
+}

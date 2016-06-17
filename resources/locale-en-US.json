@@ -1,0 +1,131 @@
+{
+	"directives.language-select.Language" : "LANGUAGE",
+	"views": {
+		"main": {
+			"Splendid!" : "Splendid!",
+			"title": "My Laptop",
+			"couch": "A couch"
+		},
+		"home": {
+			"menu": {
+				"company": "COMPANY",
+				"philosophy": "PHILOSOPHY",
+				"services": "SERVICES",
+				"service-points": "SERVICE POINTS",
+				"contact": "CONTACT",
+				"franchise": "FRANCHISES"
+			},
+			"home-invest": {
+				"title" : "Don't you know where to invest your money?",
+				"text" : "Be part of the franchises network.",
+				"enter" : "ENTER",
+				"quote" : "QUOTE"
+			},
+			"home-services" : {
+				"easy-fast" : "Lavado de carrocería,\nAbrillantador y\nProtector de Plásticos",
+				"easy-cool" : "Lavado de carrocería,\nAbrillantador, Protector de Plásticos\ny Aspirado",
+				"easy-full" : "Lavado de carrocería, Abrillantador,\nProtector de Plásticos, Aspirado\nmás Lavado de motor y vestiduras"
+			},
+			"home-time" : {
+				"text" : "Time cannot be stopped, you can just make the best out of it."
+			}
+		},
+		"company": {
+			"company-banner": {
+				"choose": "Choose who to spend time with because you ",
+				"recover": "never get it back"
+			},
+			"company-us": {
+				"who": "Who are we?",
+				"description" : " is a leading socially responsible company dedicated to the home eco-friendly car washing."
+			}, 
+			"company" : {
+				"company": "Company",
+				"p1" : "Easy Wash is a leading socially responsible company dedicated to the home eco-friendly car washing",
+				"p2" : "Our brand is registered in the Mexican Institute of Industrial Property and in process of affiliation to the Mexican Franchise Association",
+				"p3" : "It is an innovative and profitable concept that offers a professional car-wash service in the place where you are with products that protect the environment",
+				"p4" : "Easy Wash provides you with a quality service creating a unique experience to maximize your time"
+			},
+			"company-vmv" : {
+				"mission" : {
+					"title" : "Mission",
+					"text" : "We transform the home car wash service, offering a dynamic and one-of-a-kind treatment, \n able to change the way of thinking of the customer, and creating a social and ecological impact"
+				},
+				"vision" : {
+					"title" : "Vision",
+					"text" : "We are a home car wash service company offering a one-of-a-kind treatment and creating a social and ecological impact."
+				},
+				"values" : {
+					"title" : "Values",
+					"honesty": "HONESTY",
+					"punctuality": "PUNCTUALITY",
+					"kindness": "KINDNESS",
+					"availability": "AVAILABILITY",
+					"team-work": "TEAM WORK"
+				}
+
+			}
+		},
+		"philosophy" : {
+			"title" : "We are a company dedicated to add value to your time",
+			"p1" : "We specialize on the home car wash service creating a one-of-a-kind service. \n\nWith our work philosophy of caring and attending the slightest detail, we have managed to be different as a professional company \n",
+			"important": "committed to society and the environment",
+			"p2" : "\n\nWe create a friendly relationship with our business partners and clients since all of them are important pillars of the growth of Easy Wash",
+			"img-title": "Our best business is your complete satisfaction"
+		},
+		"service-points" : {
+			"point-map" : {
+				"title" : "Service Points",
+				"p1" : "Since the establishment of Easy Wash in 2014 we have had an exponential growth, thanks to the successful business model we use.",
+				"important" : "\n\nIn Mexico, we already have franchises operating, and we have coming opening in the USA.\n\n",
+				"p2" : "These are the cities where the franchise is located.\n\n"
+			},
+			"banner": {
+				"title" : "Take your time",
+				"text" : "To dream, discover, enjoy\ninvite, laugh, taste, imagine\nfeel, live . . ."
+			}
+		},
+		"franchise" : {
+			"franchise-banner" : {
+				"title" : "Why to invest in a franchise?",
+				"text" : "The industry of the franchises has grown four times more that the national economy, according to data from the Mexican Franchise Association (AMF)."
+			},
+			"franchise" : {
+				"p1" : "The possibilities of success place at a 95%, compared to the 83% of the guided incubators and the 23% of a company that starts independently, according to the Ministry of Economy.",
+				"p3" : "The 90% of the franchises survives after five years of operation, while the 60% of the traditional businesses fail after two years of being open.",
+				"p2" : "In Easy Wash we hope to count with people like you to be part of the Easy Wash franchise Family. Leave us your information and we will contact you shortly to provide with more information about us."
+			}
+		},
+		"services" : {
+			"sizes" : "small/medium/big",
+			"washing" : "washings",
+			"easy-fast": {
+				"parts" : "EXTERIOR",
+				"text": "Bodywork wash, Water with liquid wax,\n Tire gloss, Polish and rims"
+			},
+			"easy-cool" : {
+				"parts" : "EXTERIOR / INTERIOR",
+				"text": "Bodywork wash, Plastic protectant, Tire gloss,\nInterior vacuum, Dashboard cleaning,\nSeat covers cleaning"
+				},
+			"easy-full" : {
+				"parts" : "EXTERIOR / INTERIOR / BODY WORK",
+				"text" : "Seat covers cleaning, Plastic cleaning,\nEngine cleaning , Bodywork cleaning, Polish"
+			}
+		},
+		"contact" : {
+			"title" : "Contact",
+			"important" : "TO ACQUIRE ANY OF THE WASHING PACKAGES",
+			"text" : "\nSPECIFY LEAVING YOUR INFORMATION SO OUR CLOSEST SERVICE\nCAN REACH TO YOU",
+			"name" : "Name",
+			"last-name" : "Last Name",
+			"phone" : "Telephone",
+			"mobile" : "Mobile",
+			"street" : "Street",
+			"suburb" : "Suburb",
+			"state" : "State",
+			"country" : "Country",
+			"message" : "Message",
+			"send" : "Send"
+		}
+	}
+}

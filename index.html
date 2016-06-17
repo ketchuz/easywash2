@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html ng-app="easyWash">
+<head>
+	<meta charset="UTF-8">
+	<!-- <base href="/"> -->
+	<title>Easy Wash</title>
+	<!-- <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"> -->
+	<!-- <link rel="icon" href="/favicon.ico" type="image/x-icon"> -->
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+	<link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./node_modules/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="./css/main.css">
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+</head>
+<body>
+
+	<section id="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-8 col-xs-offset-2 col-sm-offset-0 col-sm-5 col-md-4">
+					<a href="#/"><img src="./assets/img/Logo.svg" class="img-responsive" alt=""></a>
+				</div>
+				<div class="col-xs-0 col-sm-1 col-md-3"></div>
+				<div class="col-xs-8 col-sm-offset-0 col-sm-4 col-md-5 pull-right" align="right">
+					<div class="row links">
+						<div class="col-xs-2 col-sm-2 col-md-1">
+							<div class="icon">
+								<a href="">
+									<i class="fa fa-facebook"></i>
+								</a>
+							</div>
+						</div>
+						<div class="col-xs-2 col-sm-2 col-md-1">
+							<div class="icon">
+								<a href="http://www.instagram.com">
+									<i class="fa fa-instagram" style="padding-left: 6px;"></i>
+								</a>
+								
+							</div>
+						</div>
+						<div class="col-xs-2 col-sm-3 col-md-2">
+							<a href="">
+								<i class="fa fa-youtube icon-white" style="padding-left: 6px;"></i>
+							</a>
+						</div>
+						<div class="col-xs-12 col-sm-12 col-md-8 icon-stack" align="left">
+							<div class="row">
+								<p><i class="fa fa-envelope" style="margin-right: 5px;"></i>ewtrclientes@easywash.com.mx</p>
+							</div>
+							<div class="row">
+								<p><i class="fa fa-phone" style="margin-right: 5px;"></i>+52 (449) 993 36 69 </p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- MENU -->
+	<nav class="navbar navbar-default">
+		<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="row" align="center">
+				<div class="col-md-12 myMenu" align="center">
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" align="center">
+						<ul class="nav navbar-nav">
+							<li><a href="#/company"> {{"views.home.menu.company" | translate }} </a></li>
+							<li><a href="#/philosophy">{{"views.home.menu.philosophy" | translate }}</a></li>
+							<li><a href="#/services">{{"views.home.menu.services" | translate }}</a></li>
+							<li><a href="#/servicepoints">{{"views.home.menu.service-points" | translate }}</a></li>
+							<li><a href="#/contact">{{"views.home.menu.contact" | translate }}</a></li>
+							<li><a href="#/franchise">{{"views.home.menu.franchise" | translate }}</a></li>
+							<li>
+								<div ng-translate-language-select></div>
+							</li>
+						</ul>
+					</div><!-- /.navbar-collapse -->
+				</div>
+			</div>
+
+		</div><!-- /.container-fluid -->
+	</nav>
+
+
+	<div class="view-animate-container">
+		<div ng-view class="view-animate"></div>
+	</div>
+
+	<!-- FOOTER -->
+	<section id="footer">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-3">
+					<img src="assets/img/logo-white.svg" class="img-responsive" alt="">
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- END FOOTER -->
+
+	<!-- BOWER COMPONENTS -->
+	<script src="./node_modules/angular/angular.js"></script>
+	<script src="./node_modules/angular-route/angular-route.js"></script>
+	<script src="./node_modules/angular-animate/angular-animate.js"></script>
+	<script src="./node_modules/jquery/dist/jquery.min.js"></script>
+	<script src="./node_modules/bootstrap-sass/assets/javascripts/bootstrap.js"></script>
+	<script src="./node_modules/angular-translate/dist/angular-translate.min.js"></script>
+	<script src="./node_modules/angular-translate-loader-static-files/angular-translate-loader-static-files.js"></script>
+	<script src="./node_modules/angular-cookies/angular-cookies.min.js"></script>
+	<script src="./node_modules/angular-translate-storage-cookie/angular-translate-storage-cookie.js"></script>
+	<script src="./node_modules/angular-translate-storage-local/angular-translate-storage-local.js"></script>
+
+	<script src="./node_modules/angular-dynamic-locale/src/tmhDynamicLocale.js"></script>
+	<script src="./node_modules/angular-i18n"></script>
+	<script src="./node_modules/angular-translate-handler-log/angular-translate-handler-log.js"></script> 
+	<!-- APPLICATION SCRIPTS -->
+	<script src="./js/app.js"></script>
+</body>
+</html>
+

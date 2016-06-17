@@ -1,0 +1,66 @@
+<div class="container-fluid contact-form">
+	<div class="row">
+		<div class="col-xs-1 col-md-1"></div>
+		<div class="col-xs-11 col-md-11">
+			<h4>{{"views.contact.title" | translate}}</h4>
+			<pre><span class="important">{{"views.contact.important" | translate}}</span>{{"views.contact.text" | translate}}
+			</pre>
+		</div>
+		
+	</div>
+	<div class="row" style="position: relative;">
+		<div class="col-sm-0 col-md-1"></div>
+		<div class="col-xs-12 col-sm-6 col-md-5">
+			<form action="">
+				<div class="form-group">
+					<input type="text" class="form-control" id="exampleInputEmail1" placeholder="{{'views.contact.name' | translate }}" ng-model="contact.name">
+				</div>
+				<div class="form-group">
+					<input type="text" class="form-control" id="exampleInputEmail1" placeholder="{{'views.contact.last-name' | translate }}" ng-model="contact.last_name">
+				</div>
+				<div class="form-group">
+					<input type="number" class="form-control" id="exampleInputEmail1" placeholder="{{'views.contact.phone' | translate }}" ng-model="contact.phone">
+				</div>
+				<div class="form-group">
+					<input type="number" class="form-control" id="exampleInputEmail1" placeholder="{{'views.contact.mobile' | translate }}" ng-model="contact.mobile">
+				</div>
+				<div class="form-group">
+					<input type="text" class="form-control" id="exampleInputEmail1" placeholder="{{'views.contact.street' | translate }}" ng-model="contact.street">
+				</div>
+				<div class="form-group">
+					<input type="text" class="form-control" id="exampleInputEmail1" placeholder="{{'views.contact.suburb' | translate }}" ng-model="contact.suburb">
+				</div>
+				<div class="form-group">
+					<input type="text" style="display: inline; width: 40%" class="form-control" id="exampleInputEmail3" placeholder="{{'views.contact.state' | translate }}" ng-model="contact.state">
+					<input type="text" style="display: inline; width: 59%" class="form-control" id="exampleInputEmail3" placeholder="{{'views.contact.country' | translate }}" ng-model="contact.country">
+				</div>
+			</form>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-sm-offset-6 col-md-6 col-md-offset-6 message-container">
+			<h5>{{'views.contact.message' | translate }}</h5>
+			
+			<div class="form-group" style="background-color: #003859;" >
+				<textarea class="form-control" rows="5" ng-model="contact.message"></textarea>
+			</div>
+
+		</div>
+		<!-- <div class="col-md-6 col-md-offset-6" style="position: absolute; bottom:0;">
+			<h5>{{'views.contact.message' | translate }}</h5>
+
+			<div class="form-group" style="background-color: #003859;" >
+				<textarea class="form-control" rows="5" ng-model="contact.message"></textarea>
+			</div>
+		</div> -->
+	</form>
+</div>
+<br><br>
+<div class="row">
+	<div class="col-md-1"></div>
+	<div class="col-md-1">
+		<button class="btn btn-primary" ng-click="sendForm(contact)">{{'views.contact.send' | translate }}</button>
+	</div>
+</div>
+<div class="row">
+	<img src="" alt="">
+</div>
+</div>

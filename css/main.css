@@ -1,0 +1,644 @@
+@font-face {
+  font-family: exo-2-bold;
+  src: url(../assets/fonts/Exo2-Bold.otf); }
+
+@font-face {
+  font-family: exo-2;
+  src: url(../assets//fonts/Exo2-Regular.otf); }
+
+@font-face {
+  font-family: exo-2-light;
+  src: url(../assets//fonts/Exo2-Light.otf); }
+
+@font-face {
+  font-family: 'exo-2.0-regular';
+  src: url(../assets//fonts/exo-2-0-regular.otf); }
+
+@font-face {
+  font-family: 'exo-2.0-extra-bold-italic';
+  src: url(../assets//fonts/exo-2-0.extra-bold-italic.otf); }
+
+pre {
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+  background: transparent;
+  word-break: keep-all;
+  /*this stops the word breaking*/
+  color: white;
+  border: none;
+  font-family: exo-2;
+  overflow: hidden; }
+
+select {
+  color: #535151;
+  line-height: 1 !important; }
+
+@media (min-width: 768px) and (max-width: 992px) {
+  #banner .row {
+    padding: 25px 0; }
+  #directory [class*="col-"] {
+    margin-top: 20px; }
+  #philosophy .img-holder:nth-of-type(1) {
+    background-position-y: 0%; }
+  #easy-fast .img-holder > img {
+    width: 100%; }
+  .washing-holder [class*="col-"] {
+    margin-top: 12px; }
+  #home-services .row-eq-height {
+    max-height: 400px; }
+    #home-services .row-eq-height .holder {
+      margin-top: 85px; }
+  #home-services .holder1 {
+    background-size: 300%;
+    background-position: 15% 0; }
+  #home-services .holder2 {
+    background-size: 180%;
+    background-position: 15% -300px; }
+  #home-services .holder3 {
+    background-repeat: no-repeat;
+    background-size: 250%;
+    background-position: 29% 0px; } }
+
+@media (min-width: 0) and (max-width: 768px) {
+  #philosophy .img-holder:nth-of-type(1) {
+    background-position-y: 30%; }
+  .message-container {
+    position: relative !important; }
+  #banner #helper, #easy-full .helper, #easy-fast .helper, #home-time .helper {
+    min-height: 100%;
+    background: black;
+    position: absolute;
+    z-index: 11;
+    opacity: 0.7; }
+  .washing-holder [class*="col-"] {
+    margin-top: 12px;
+    text-align: center !important; }
+  #easy-fast .img-holder {
+    position: absolute;
+    bottom: 0; }
+  #home-services .holder1, #home-services .holder2, #home-services .holder3 {
+    margin-bottom: 0;
+    padding-bottom: 0; }
+  #easy-fast .img-holder > img {
+    width: 100%; }
+  #directory {
+    text-align: center; }
+    #directory .col-xs-offset-2 {
+      margin-top: 25px; }
+    #directory h4, #directory span {
+      font-size: 10pt; } }
+
+#company-banner {
+  background-image: url("../assets/img/Principal.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10% 0;
+  color: white;
+  font-family: exo-2-light; }
+  #company-banner .row {
+    margin: 10% 0;
+    padding: 5% 0; }
+
+#company-us {
+  background-image: url("../assets/img/Puntos copy.jpg");
+  background-size: 35px;
+  background-repeat: repeat;
+  color: white;
+  padding: 20% 0;
+  color: white;
+  font-family: exo-2-light;
+  font-size: 15pt; }
+  #company-us h1 {
+    font-family: exo-2-bold;
+    font-size: 30pt; }
+  #company-us img {
+    max-width: 35%;
+    display: inline; }
+
+#company {
+  background: linear-gradient(rgba(35, 31, 32, 0.7), rgba(35, 31, 32, 0.7)), url("../assets/img/Acura-ILX-motor1.jpg");
+  background-size: cover;
+  font-family: exo-2;
+  color: white;
+  padding: 50px 0;
+  padding-bottom: 100px; }
+  #company h1 {
+    font-family: exo-2-bold;
+    font-size: 30pt; }
+  #company .row {
+    background-image: url("../assets/img/Empresa.jpg");
+    background-size: cover;
+    padding: 50px 0;
+    padding-left: 25px;
+    font-size: 10pt;
+    position: relative; }
+  #company .img-holder {
+    position: absolute;
+    bottom: -80px; }
+    #company .img-holder img {
+      -moz-transform: scaleX(-1);
+      -o-transform: scaleX(-1);
+      -webkit-transform: scaleX(-1);
+      transform: scaleX(-1); }
+
+#company-vmv {
+  color: white;
+  font-family: exo-2;
+  background-image: url("../assets/img/Fon1.png");
+  background-size: repeat;
+  padding: 50px 0; }
+  #company-vmv .row {
+    background-image: url("../assets/img/Puntos copy.jpg");
+    background-size: 35px;
+    background-repeat: repeat;
+    position: relative;
+    padding: 20px 7%;
+    padding-bottom: 10%; }
+    #company-vmv .row pre {
+      background: transparent;
+      color: white;
+      border: none;
+      font-family: exo-2;
+      padding: 0; }
+    #company-vmv .row .fa {
+      font-size: 20pt;
+      color: #F05A28;
+      margin-left: -25px; }
+    #company-vmv .row h4 {
+      font-family: exo-2-bold;
+      margin-bottom: 0; }
+    #company-vmv .row ul {
+      padding-left: 0; }
+    #company-vmv .row img {
+      position: absolute;
+      right: 0;
+      max-width: 30%;
+      bottom: 0; }
+
+.contact {
+  padding: 100px 0;
+  background-image: url("../assets/img/Puntos copy.jpg");
+  background-repeat: repeat;
+  background-size: 35px;
+  color: white;
+  font-family: exo-2-light; }
+  .contact pre {
+    padding: 0;
+    font-family: exo-2-light; }
+  .contact .directory {
+    padding: 50px 0; }
+    .contact .directory .fa {
+      color: #B0E2F9; }
+    .contact .directory h1 {
+      font-size: 12pt; }
+    .contact .directory h4, .contact .directory span {
+      font-size: 8pt; }
+  .contact .message-container {
+    position: absolute;
+    bottom: 0; }
+  .contact .contact-form .important {
+    color: #00ADBF; }
+  .contact .contact-form .form-group {
+    margin-bottom: 0;
+    background-image: url("../assets/img/Textura_Lineas.jpg"); }
+    .contact .contact-form .form-group:nth-child(even) {
+      background: #0B4F76; }
+    .contact .contact-form .form-group:nth-child(odd) {
+      background: #003859; }
+    .contact .contact-form .form-group .form-control {
+      color: white;
+      background: transparent;
+      border-color: transparent; }
+    .contact .contact-form .form-group ::-webkit-input-placeholder {
+      color: white; }
+    .contact .contact-form .form-group :-moz-placeholder {
+      /* Firefox 18- */
+      color: white; }
+    .contact .contact-form .form-group ::-moz-placeholder {
+      /* Firefox 19+ */
+      color: white; }
+    .contact .contact-form .form-group :-ms-input-placeholder {
+      color: white; }
+  .contact .contact-form textarea {
+    resize: none; }
+  .contact .contact-form .grayscale {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%); }
+
+#franchise-banner {
+  background-image: url("../assets/img/Img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  color: white;
+  font-family: 'exo-2.0-regular'; }
+  #franchise-banner h3 {
+    font-family: 'exo-2.0-extra-bold-italic'; }
+  #franchise-banner .row {
+    padding: 10% 0;
+    padding-right: 35px; }
+
+#franchise {
+  font-family: 'exo-2.0-regular'; }
+  #franchise .row-eq-height {
+    overflow: hidden; }
+  #franchise .text-container {
+    color: white;
+    margin-bottom: -99999px;
+    padding-bottom: 99999px; }
+    #franchise .text-container:nth-child(even) {
+      background: #F05A28; }
+    #franchise .text-container:nth-child(odd) {
+      background: #F47C28; }
+    #franchise .text-container p {
+      padding: 27px 0; }
+
+#youtube {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  padding-top: 25px;
+  height: 0; }
+  #youtube iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+#franchise-dots .icon {
+  padding: 10px;
+  width: 80%; }
+
+#franchise-dots .row {
+  height: 100px;
+  background-image: url("../assets/img/Puntos copy.jpg");
+  background-size: 35px;
+  background-repeat: repeat; }
+
+#philosophy {
+  background-image: url("../assets/img/Puntos copy.jpg");
+  background-size: 35px;
+  background-repeat: repeat;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  color: white;
+  font-family: exo-2-light; }
+  #philosophy .text {
+    padding: 50px 0; }
+    #philosophy .text h4, #philosophy .text p {
+      margin-bottom: 45px; }
+    #philosophy .text span {
+      color: #C4D82D; }
+  #philosophy .img-holder {
+    padding: 40px 0;
+    min-height: 234px; }
+    #philosophy .img-holder pre {
+      margin: 0;
+      padding: 50px 0;
+      color: #00B2B0; }
+  #philosophy .img-holder:nth-of-type(1) {
+    background-image: url("../assets/img/service1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; }
+  #philosophy .img-holder:nth-of-type(2) {
+    background: linear-gradient(rgba(32, 12, 19, 0.8), rgba(32, 12, 19, 0.8)), url("../assets/img/FAMILIA.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; }
+  #philosophy .img-holder:nth-of-type(3) {
+    background-image: url("../assets/img/DSC07092.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; }
+
+body {
+  overflow-x: hidden; }
+
+#header {
+  background-color: black; }
+  #header .container {
+    padding: 55px 0 30px 0; }
+    #header .container .links a {
+      color: black; }
+      #header .container .links a:hover {
+        color: #F05A28; }
+    #header .container .links i {
+      padding: 18px 14px 0px 9px;
+      font-size: 22px;
+      line-height: 28px; }
+    #header .container .links .icon-white {
+      color: white;
+      margin-right: 10px;
+      font-size: 25px; }
+      #header .container .links .icon-white:hover {
+        color: #F05A28; }
+    #header .container .links .icon-stack i {
+      color: white;
+      padding: 0px;
+      font-size: 14px; }
+    #header .container .links .icon-stack p {
+      margin: 0px;
+      color: white; }
+    #header .container .links .icon {
+      display: inline-block;
+      margin-right: 15px;
+      width: 30px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-image: url("../assets/img/whiteDrop.svg");
+      height: auto; }
+
+.navbar-default {
+  background-color: #F05A28;
+  border-color: #F05A28; }
+
+.navbar-nav {
+  width: 100%;
+  padding: 25px 0;
+  text-align: center; }
+  .navbar-nav > li {
+    color: white;
+    float: none;
+    display: inline-block;
+    font-size: 1.1em;
+    font-family: exo-2-bold; }
+    .navbar-nav > li > a {
+      color: white; }
+
+.navbar-default .navbar-nav > li > a {
+  color: white; }
+
+.navbar {
+  margin-bottom: 0; }
+
+#slider .container-fluid {
+  padding: 0; }
+
+#home-invest .container-fluid {
+  background-image: url("../assets/img/Fon1.png");
+  background-size: inherit;
+  background-repeat: round;
+  padding: 54px 0; }
+
+#home-invest .holder {
+  background-image: url("../assets/img/Textura_Lineas.jpg");
+  background-size: contain;
+  color: white;
+  padding: 150px 0;
+  background-color: black;
+  font-family: exo-2; }
+  #home-invest .holder a {
+    margin-top: 30px;
+    font-family: exo-2-light;
+    background-color: transparent;
+    border-color: #F05A28;
+    padding: 3px 50px; }
+    #home-invest .holder a:hover {
+      background-color: #F05A28; }
+  #home-invest .holder h2, #home-invest .holder h3 {
+    margin: 0; }
+  #home-invest .holder h3 {
+    font-family: exo-2-light;
+    margin-bottom: 30px; }
+
+#home-services .row-eq-height {
+  overflow: hidden;
+  background-image: url("../assets/img/Puntos copy.jpg");
+  background-size: 35px;
+  background-repeat: repeat; }
+
+#home-services .holder1, #home-services .holder2, #home-services .holder3 {
+  margin-bottom: -99999px;
+  padding-bottom: 99999px; }
+
+#home-services .holder {
+  font-family: exo-2-light;
+  background-image: url("../assets/img/black-texture.png");
+  background-size: cover;
+  margin: 150px 30px;
+  padding: 10px 25px;
+  color: white; }
+  #home-services .holder h1, #home-services .holder h2 {
+    font-family: exo-2-bold; }
+
+#home-services .holder1 {
+  background-image: url("../assets/img/service1.jpg");
+  background-size: 230%;
+  background-repeat: no-repeat; }
+  #home-services .holder1 .holder {
+    background-image: url("../assets/img/orange-texture.png"); }
+
+#home-services .holder2 {
+  background-image: url("../assets/img/service2.jpg");
+  background-size: 140%;
+  background-position-y: -150px; }
+  #home-services .holder2 .holder {
+    background-image: url("../assets/img/black-texture.png"); }
+
+#home-services .holder3 {
+  background-image: url("../assets/img/service3.jpg");
+  background-size: 280%;
+  background-position-y: -150px; }
+
+#home-time {
+  font-family: exo-2;
+  color: white;
+  background: linear-gradient(rgba(35, 32, 31, 0.6), rgba(35, 32, 31, 0.6)), url("../assets/img/Acura-ILX-motor1.jpg");
+  background-size: cover; }
+  #home-time .container-fluid {
+    padding: 0; }
+  #home-time img {
+    padding-top: 25px;
+    position: absolute;
+    top: 0;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1); }
+  #home-time .title {
+    padding: 125px 0; }
+  #home-time .row {
+    position: relative;
+    margin: 60px 0;
+    background-image: url("../assets/img/time-bg.png");
+    background-size: cover; }
+
+#footer {
+  background-color: #F05A28; }
+  #footer img {
+    margin: 10px;
+    max-width: 50%; }
+
+#point-map {
+  background-image: url("../assets/img/Puntos copy.jpg");
+  background-repeat: repeat;
+  background-size: 35px;
+  font-family: exo-2;
+  color: white;
+  padding: 50px 0; }
+  #point-map h1 {
+    display: inline-block;
+    background-color: #1F72A5;
+    padding: 5px 40px 5px 5px;
+    font-size: 18pt; }
+  #point-map span.important {
+    color: #F05A28; }
+
+#banner {
+  background: linear-gradient(rgba(35, 31, 32, 0.7), rgba(35, 31, 32, 0.7)), url("../assets/img/Acura-ILX-motor1.jpg");
+  background-size: cover;
+  padding: 50px 0;
+  color: white;
+  font-family: exo-2-light;
+  font-size: 21pt; }
+  #banner .row {
+    position: relative;
+    padding: 25px 0;
+    background-position: 50%;
+    background-image: url("../assets/img/_servicio1.jpg"), url("../assets/img/Puntos copy.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: contain, 35px; }
+  #banner pre {
+    font-size: 21pt;
+    font-family: exo-2-light; }
+  #banner h1 {
+    font-family: exo-2-bold;
+    font-size: 20pt;
+    color: #B7B9BB; }
+  #banner .img-holder {
+    position: absolute;
+    bottom: -25px; }
+
+#point-contact {
+  padding: 100px 0;
+  background-image: url("../assets/img/Puntos copy.jpg");
+  background-repeat: repeat;
+  background-size: 35px;
+  color: white;
+  font-family: exo-2-light; }
+  #point-contact pre {
+    padding: 0;
+    font-family: exo-2-light; }
+  #point-contact .directory {
+    padding: 50px 0; }
+    #point-contact .directory .fa {
+      color: #B0E2F9; }
+    #point-contact .directory h1 {
+      font-size: 12pt; }
+    #point-contact .directory h4, #point-contact .directory span {
+      font-size: 8pt; }
+
+.contact-form .important {
+  color: #00ADBF; }
+
+.contact-form .form-group {
+  margin-bottom: 0;
+  background-image: url("../assets/img/Textura_Lineas.jpg"); }
+  .contact-form .form-group:nth-child(even) {
+    background: #0B4F76; }
+  .contact-form .form-group:nth-child(odd) {
+    background: #003859; }
+  .contact-form .form-group .form-control {
+    color: white;
+    background: transparent;
+    border-color: transparent; }
+  .contact-form .form-group ::-webkit-input-placeholder {
+    color: white; }
+  .contact-form .form-group :-moz-placeholder {
+    /* Firefox 18- */
+    color: white; }
+  .contact-form .form-group ::-moz-placeholder {
+    /* Firefox 19+ */
+    color: white; }
+  .contact-form .form-group :-ms-input-placeholder {
+    color: white; }
+
+.contact-form .grayscale {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%); }
+
+#easy-fast, #easy-cool, #easy-full {
+  font-family: exo-2;
+  color: white;
+  background-image: url("../assets/img/Fondo.jpg");
+  padding-bottom: 60px;
+  background-position-y: 2%;
+  background-size: cover; }
+  #easy-fast h1, #easy-cool h1, #easy-full h1 {
+    font-family: exo-2-bold;
+    font-size: 42pt;
+    color: white; }
+  #easy-fast .sizes, #easy-cool .sizes, #easy-full .sizes {
+    margin: 20px 0;
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 15pt;
+    color: white; }
+  #easy-fast .washing-holder, #easy-cool .washing-holder, #easy-full .washing-holder {
+    margin: 10px 0;
+    margin-top: 0; }
+    #easy-fast .washing-holder .row, #easy-cool .washing-holder .row, #easy-full .washing-holder .row {
+      background-image: none; }
+      #easy-fast .washing-holder .row [class*="col-"], #easy-cool .washing-holder .row [class*="col-"], #easy-full .washing-holder .row [class*="col-"] {
+        padding: 0; }
+      #easy-fast .washing-holder .row [class*="col-"]:nth-child(1), #easy-cool .washing-holder .row [class*="col-"]:nth-child(1), #easy-full .washing-holder .row [class*="col-"]:nth-child(1) {
+        text-align: right; }
+      #easy-fast .washing-holder .row [class*="col-"]:nth-child(3), #easy-cool .washing-holder .row [class*="col-"]:nth-child(3), #easy-full .washing-holder .row [class*="col-"]:nth-child(3) {
+        text-align: left; }
+    #easy-fast .washing-holder .washing-num, #easy-cool .washing-holder .washing-num, #easy-full .washing-holder .washing-num {
+      background-color: #0B4F76;
+      color: white;
+      font-size: 14pt;
+      padding: 2px 10px;
+      margin: 10px 5px; }
+    #easy-fast .washing-holder .odd, #easy-cool .washing-holder .odd, #easy-full .washing-holder .odd {
+      background-color: #003555; }
+  #easy-fast .icon, #easy-cool .icon, #easy-full .icon {
+    margin: 0 25px;
+    max-width: 50px; }
+  #easy-fast .img-holder, #easy-cool .img-holder, #easy-full .img-holder {
+    position: absolute;
+    bottom: 0; }
+
+#easy-fast .row {
+  padding: 25px 0;
+  position: relative;
+  background-image: url("../assets/img/_servicio1.jpg"), url("../assets/img/Textura_Puntos.jpg");
+  background-repeat: no-repeat, repeat;
+  background-size: contain, contain;
+  background-position: 50%; }
+
+#easy-fast .img-holder > img {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1); }
+
+#easy-cool .row {
+  padding: 25px 0;
+  background-image: url("../assets/img/Textura_Lineas.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+  position: relative; }
+
+#easy-cool .img-container {
+  position: absolute;
+  bottom: 25px; }
+
+#easy-cool .img-holder > img {
+  position: absolute;
+  bottom: -50px; }
+
+#easy-full {
+  padding-bottom: 100px; }
+  #easy-full .row {
+    position: relative;
+    padding: 25px 0;
+    background-image: url("../assets/img/1_servicio.jpg"), url("../assets/img/Textura_Puntos.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: cover, contain; }
+  #easy-full .img-holder > img {
+    position: absolute;
+    bottom: -65px; }
